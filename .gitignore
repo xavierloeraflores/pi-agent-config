@@ -1,0 +1,32 @@
+# Secrets / auth / env files
+auth.json
+.env
+.env.*
+!.env.example
+
+# Saved conversations may contain secrets/code/output
+sessions/
+
+# MCP generated metadata cache
+mcp-cache.json
+
+# Models file will likely contain secrets
+models.json
+
+# Optional but recommended: 
+settings.json
+
+# Downloaded helper binaries / local installs
+bin/
+npm/
+git/
+node_modules/
+
+# Logs/cache/temp
+*.log
+.cache/
+tmp/
+.temp/
+
+# OS/editor noise
+.DS_Store
